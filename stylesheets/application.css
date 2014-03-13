@@ -1,0 +1,398 @@
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+form {
+    left: 0px;
+    /*margin:0 auto;
+
+    width: 45%;*/
+    width:390px;
+}
+
+input, textarea {
+    /*width:45%;*/
+    width: 390px;
+    height:27px;
+    background:white;
+    border:0;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+textarea {
+  height: 125px;
+  background:white;
+  font-family: helvetica;
+  letter-spacing: 1.2;
+}
+
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit2 {
+    color: white;
+    width:127px;
+    height:50px;
+    background:#504a46;
+    font-size: 1em;
+    /*text-indent:-9999px;*/
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+  #submit2:hover {
+      opacity:.9;
+  }
+
+#overlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#modal {
+    position:absolute;
+    background:url(tint20.png) 0 0 repeat;
+    background:rgba(0,0,0,0.2);
+    border-radius:14px;
+    padding:8px;
+}
+
+  /*colors: 
+light brown: #F3F0F0;
+mid brown: #e0e0e0;
+dark brown: #504a46;
+orange: #EC6F66;
+
+*/
+
+/*TODO: Add skills sections: organizational development, due-diligence/investment, community development/mgmt; */
+
+body, p {
+  color: #504a46;
+  font-weight: 300;
+  /*min-width: 1043px;*/
+}
+
+h1{
+  font-size: 2.75rem;
+}
+
+h4{
+  font-weight: 300;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.fixed {
+  /*position: fixed;
+  
+  display: block;*/
+  z-index: 100;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 80px 0 80px;
+  background: #F3F0F0;
+  /*width: 100%;
+  min-width: 550px;*/
+}
+
+.top-bar{
+  z-index: 101;
+  background: #F3F0F0;
+}
+
+nav h5 a {
+  color: #504a46;
+  font-weight: 300;
+  display: inline;
+  float: left;
+  /*position: absolute;
+  margin-top: -20px;*/
+  text-align: left;
+  
+}
+
+nav h5 a:hover{
+  color: #EC6F66;
+}
+
+nav ul{
+  display: inline;
+  /*margin: -20px 140px 15px 80px;*/
+  float: right;
+  /*text-align: right;*/
+}
+
+nav ul li {
+  display: inline;
+  padding: 0 15px;
+  z-index: 102;
+}
+
+nav ul li a {
+  display: inline;
+  text-decoration: none;
+  color: #504a46;
+  z-index: 103;
+}
+
+nav ul li a:hover {
+  color: #EC6F66;
+}
+
+#small-top-bar{
+  z-index: 105;
+}
+
+.padded-container{
+  padding: 20px 0px;
+}
+
+.padded-container-60px{
+  padding: 60px 0px;
+}
+
+.landingSection {
+  margin-top: 20px;
+  padding: 13em 0em;
+}
+
+.greyBackground{
+  background-color: #F3F0F0;
+  color: 
+}
+
+
+#skillsIntro{
+  padding: auto 0px;
+}
+
+.introPhoto img{
+  width: 100%;
+}
+
+
+#skillsSection{
+  background-color: #EC6F66;
+  color: white;
+  padding-bottom: 4em;
+}
+
+#skillsSection p,#skillsSection h1, #skillsSection h2, #skillsSection h3, #skillsSection h5{
+  color: #F3F0F0;
+}
+
+.blurbs {
+  display: none;
+  height: 250px;
+}
+
+#ProductBlock {
+  display: inline-block;
+}
+
+
+/*
+
+
+#productImg{
+  display: block;
+  margin: 35px auto;
+  margin-top: 65px;
+  text-align: center;
+}
+
+
+
+.productImg2 img {
+  /*height: 350px;
+}*/
+
+.skillImgs {
+  display: none;
+  height: 250px;
+  float: center;
+  margin: 0 auto;
+  margin-top: 45px;
+  text-align: center;
+}
+
+.skillImgsShow {
+  display: block;
+  height: 250px;
+  float: center;
+  margin: 0 auto;
+  margin-top: 45px;
+  text-align: center;
+}
+
+.skillImgsShow iframe{
+  margin: 0 auto;
+}
+
+#productBlurb{
+  display: block;
+}
+
+#skillsSection a{
+  color: #504a46;
+}
+
+#productTitle{
+  display: block;
+}
+
+
+.borderedPhoto {
+  border: 5px #e0e0e0 solid;
+}
+
+.borderedPhoto img, .borderedPhoto iframe{
+  height: 250px;
+}
+
+.skillTitles {
+  display: none;
+}
+
+
+/*#cnwPhoto{
+  height: 250px;
+}
+*/
+#cpwfPhoto{
+  height: 250px;
+}
+
+#featuresSection{
+  background-color: #F3F0F0;
+  border-bottom: #504a46 solid 1px;
+
+  /*height: 850px;
+  min-width: 600px;*/
+}
+
+#featuresSection p, #featuresSection h1{
+  color: #504a46;
+}
+
+#featuresSection a{
+  color: #EC6F66;
+}
+
+#featuresSection a:hover{
+
+}
+
+/*.leftBlock {
+  height: auto;
+  float: left;
+  width: 45%;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  text-align: left;
+}*/
+
+iframe{
+  width: 325px;
+  height: 250px;
+
+}
+
+.videoHolder{
+  display: inline-block;
+}
+
+
+#contactSection{
+  background-color: #F3F0F0;
+}
+
+input{
+  border: 0;
+  line-height: 1.5;
+}
+
+.button{
+  background-color: #EC6F66;
+  /*background-color: #e0e0e0;*/
+  height: 35px;
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.inputField{
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px 0px;
+
+}
+
+#comment {
+  height: 150px;
+  width: 385px;
+}
+
+
+#map img{
+  width: 24em;
+  border-radius: 10px;
+  margin: 0 auto;
+  float: center;
+}
+
+#map{
+  float: right;
+}
+
+#footer {
+  background-color: #504a46;
+  opacity: 1;
+  height: 30px;
+  display: block;
+  bottom: 0;
+  /*margin-top: 150px;*/
+  clear: both;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer div {
+  float: center;
+  top: 0px;
+  text-align: center;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+@media(max-width: 560px){
+  .hide-for-small{
+    display: none;
+  }
+}
