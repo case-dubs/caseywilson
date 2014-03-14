@@ -51,6 +51,7 @@ $('#branding').on('click', function(){
 		$('#brandingTitle').fadeIn();
 		$('#brandingBlurb').fadeIn();
 		$('#brandingImg').fadeIn();
+		$('#brandingImg2').fadeIn();
 	});
 
 	

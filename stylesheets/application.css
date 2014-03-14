@@ -209,6 +209,21 @@ nav ul li a:hover {
   display: inline-block;
 }
 
+#brandingImg{
+  display: none;
+}
+
+#brandingImg2{
+  display: none;
+}
+
+#productImg{
+  display: block;
+}
+
+#productImg2{
+  display: inline-block;
+}
 
 /*
 
@@ -247,6 +262,7 @@ nav ul li a:hover {
 .skillImgsShow iframe{
   margin: 0 auto;
 }
+
 
 #productBlurb{
   display: block;
@@ -316,6 +332,14 @@ iframe{
   width: 325px;
   height: 250px;
 
+}
+
+#cnn iframe{
+  float: center;
+}
+
+#phoenix iframe{
+  float: center;
 }
 
 .videoHolder{

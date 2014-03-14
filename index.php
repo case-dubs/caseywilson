@@ -25,7 +25,7 @@
 
   <div class="fixed sticky">
     <nav class="top-bar" data-topbar>
-      <h5 data-magellan-arrival="topSection"><a href="/index.html">CASEY WILSON</a></h5>
+      <h5 data-magellan-arrival="topSection"><a href="/">CASEY WILSON</a></h5>
       <ul class="right hide-for-small">
         <li data-magellan-arrival="skillsSection"><a href="#skillsSection">Skills</a></li>
         <li data-magellan-arrival="featuresSection"><a href="#featuresSection">Features</a></li>
@@ -151,10 +151,10 @@
       </div>
     <div class="row padded-container-60px">
       <div class="columns large-11 medium-12 large-centered">
-        <div class="columns large-6 medium-6 videoHolder" id="phoenix">
+        <div class="columns large-5 medium-5 videoHolder" id="phoenix">
           <iframe src="//player.vimeo.com/video/55889779?title=0&amp;byline=0&amp;portrait=0" width="325" height="250" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
-        <div class=" large-6 medium-6 videoHolder" id="cnn">
+        <div class="large-5 medium-5 large-offset-1 videoHolder end" id="cnn">
           <iframe src="//player.vimeo.com/video/56205408?title=0&amp;byline=0&amp;portrait=0" width="325" height="250" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
         </div>
       </div>
@@ -171,7 +171,7 @@
         <div class="columns large-6 medium-5">
           
           <section class="body">
-          <!--<?php
+          <?php
               $name = $_POST['name'];
               $email = $_POST['email'];
               $message = $_POST['message'];
@@ -191,7 +191,7 @@
               } else if ($_POST['submit2'] && $human != '4') {
             echo '<p style="color:red;">You answered the anti-spam question incorrectly!</p>';
               }
-          ?>-->
+          ?>
             <form method="post" action="#contactSection">
                   
               <label>Name</label>
@@ -210,7 +210,7 @@
             </form>
           </section>
         </div>
-        <div class="columns large-6 medium-5 padded-container">
+        <div class="columns medium-offset-1 large-5 medium-4 padded-container">
           <div id="map">
             <img src="./images/bay_area_map.png">
           </div>
