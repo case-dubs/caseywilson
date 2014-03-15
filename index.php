@@ -24,12 +24,12 @@
   <div class="inner-wrap">
 
   <div class="fixed sticky">
-    <nav class="top-bar" data-topbar>
-      <h5 data-magellan-arrival="topSection"><a href="/">CASEY WILSON</a></h5>
+    <nav class="top-bar">
+      <h5 id="topAnchor"><a href="#">CASEY WILSON</a></h5>
       <ul class="right hide-for-small">
-        <li data-magellan-arrival="skillsSection"><a href="#skillsSection">Skills</a></li>
-        <li data-magellan-arrival="featuresSection"><a href="#featuresSection">Features</a></li>
-        <li data-magellan-arrival="contactSection"><a href="#contactSection">Connect</a></li>
+        <li id="skillsAnchor"><a href="#">Skills</a></li>
+        <li id="featuresAnchor"><a href="#">Features</a></li>
+        <li id="contactAnchor"><a href="#">Connect</a></li>
       </ul>
     </nav>
   </div>
@@ -43,14 +43,14 @@
     </header>-->
     <!--<div id="landingSection" class="bodyDivs">
       <div id="landingFeatureSection">-->
-  <div  class="landingSection greyBackground padded-container">
+  <div id="topSection" class="landingSection greyBackground padded-container">
     <div class="row">
       <div class="medium-10 large-10 large-centered medium-centered small-centered columns">
         <div class="row medium-centered small-centered">
           <div class="medium-4 large-4 small-12 columns"><img class="introPhoto "src="./images/casey_circlesample2.png">
           </div>
           <div class="medium-8 large-8 small-12 columns" id="helloMessage">
-            <h1 data-magellan-destination="topSection">Hello, I'm Casey.</h1>
+            <h1>Hello, I'm Casey.</h1>
             <h2>I'm a social entrepreneur.</h2>
           </div>
         </div>
@@ -59,11 +59,11 @@
   </div>
   <div id="skillsSection">
     <div class="row">
-        <div class="columns large-3 small-3 medium-3 large-centered medium-centered small-centered" data-magellan-arrival="skillsSection" id="introArrow">
-            <a href="#skillsSection">
-            <img src="./images/transparent_arrow_down2.png">
-            </a>
-        </div>
+      <div class="columns large-3 small-3 medium-3 large-centered medium-centered small-centered" data-magellan-arrival="skillsSection" id="introArrow">
+          <a id="skillsArrow" href="#">
+          <img src="./images/transparent_arrow_down2.png">
+          </a>
+      </div>
     </div>
     <div class="row">
       <div class="skillsIntro columns large-12 medium-12" id="skillsTop">
@@ -220,6 +220,7 @@
     <div class="padded-container" id="footer">
       <div>
           <a href="www.caseywilson.me">&copy; 2013 Casey Wilson</a>
+          <br>
       </div>
     </div>
   </div>

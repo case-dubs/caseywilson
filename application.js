@@ -26,13 +26,11 @@ $(document).ready(function() {
 // 	});
 	function scrollToAnchor(aid){
     var aTag = $("#"+ aid);
-    console.log('scrollToAnchor function started');
-    $('body').animate({scrollTop: aTag.offset().top},'slow');
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
 	}
 
 	$("#skillsAnchor, #skillsArrow").click(function() {
 	   scrollToAnchor('skillsSection');
-	   console.log(' '+ $this + 'clicked');
 	});
 
 	$("#featuresAnchor").click(function() {
